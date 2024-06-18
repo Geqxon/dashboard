@@ -119,7 +119,7 @@ public class ApiClient {
         newSensor.put("Diepte", diepte);
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(new URI(BASE_URL + "Sensoren"))
+                .uri(new URI(BASE_URL + "sensoren"))
                 .header("Authorization", API_KEY)
                 .header("Content-Type", "application/json")
                 .POST(HttpRequest.BodyPublishers.ofString(newSensor.toString()))

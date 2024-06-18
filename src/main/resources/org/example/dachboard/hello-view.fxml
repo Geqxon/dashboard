@@ -49,14 +49,14 @@
                   <Line endX="598.0" layoutX="111.0" layoutY="186.0" startX="-115.0" />
                   <Line endX="598.0" layoutX="111.0" layoutY="313.0" startX="-115.0" />
                   <Line endX="598.0" layoutX="111.0" layoutY="432.0" startX="-115.0" />
-                  <Label layoutX="101.0" layoutY="88.0" text="Sensor ID" />
+                  <Label layoutX="101.0" layoutY="88.0" text="Sensor type" />
                   <Label layoutX="101.0" layoutY="212.0" text="Diepte" />
                   <Label layoutX="101.0" layoutY="330.0" text="Locatie" />
-                  <Button fx:id="AddSensorButton" layoutX="316.0" layoutY="534.0" mnemonicParsing="false" text="AddSensor" />
+                  <Button layoutX="316.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnAddSensor" text="AddSensor" />
                   <TextField fx:id="SensorIDTextField" layoutX="101.0" layoutY="113.0" prefHeight="25.0" prefWidth="467.0" />
                   <TextField fx:id="DiepteTextField" layoutX="101.0" layoutY="239.0" prefHeight="25.0" prefWidth="467.0" />
                   <TextField fx:id="LocatieTextField" layoutX="101.0" layoutY="357.0" prefHeight="25.0" prefWidth="467.0" />
-                  <Label fx:id="AddSensorGelukt" alignment="CENTER" layoutX="52.0" layoutY="574.0" prefHeight="17.0" prefWidth="603.0" text="Lorem ipsu0m" />
+                  <Label fx:id="sensorGelukt" layoutX="335.0" layoutY="584.0" text="Label" />
                </children></AnchorPane>
          </content>
       </Tab>
@@ -76,9 +76,9 @@
                   <Line endX="411.0" layoutX="218.0" layoutY="423.0" startX="-148.0" />
                   <Line endX="411.0" layoutX="218.0" layoutY="122.0" startX="-148.0" />
                   <Label layoutX="211.0" layoutY="76.0" text="de informatie wat deze sensoren voor het laast meten" />
-                  <Label fx:id="Sensor1LiveData" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="193.0" prefHeight="17.0" prefWidth="539.0" text="lorem ipsum" />
-                  <Label fx:id="Sensor2LiveData" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="347.0" prefHeight="17.0" prefWidth="539.0" text="lorem ipsum" />
-                  <Label fx:id="Sensor3LiveData" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="514.0" prefHeight="17.0" prefWidth="539.0" text="lorem ipsum" />
+                  <Label fx:id="Sensor1LiveData" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="193.0" prefHeight="17.0" prefWidth="539.0" />
+                  <Label fx:id="Sensor2LiveData" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="347.0" prefHeight="17.0" prefWidth="539.0" />
+                  <Label fx:id="Sensor3LiveData" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="514.0" prefHeight="17.0" prefWidth="539.0" />
                </children></AnchorPane>
          </content>
       </Tab>
